@@ -1,0 +1,24 @@
+/* Custom Scrollbar for Sidebar */
+aside nav::-webkit-scrollbar {
+    width: 4px;
+}
+aside nav::-webkit-scrollbar-thumb {
+    background: #334155;
+    border-radius: 10px;
+}
+
+/* Card Hover Effects */
+.module-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: aqua;
+}
+.module-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* Tab Active State for Settings */
+.tab-btn.active {
+    border-bottom: 2px solid #3b82f6;
+    color: #3b82f6;
+}
